@@ -70,6 +70,35 @@ p {
   font-family: "Gotham";
 }
 
+h1, h2 {
+    color: #ffa700;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40pt;
+    line-height: 48pt;
+    margin-top: 24pt;
+    margin-bottom: 16pt;
+}
+
+h2 {
+  font-size: 32pt;
+  line-height:40pt;
+}
+
+h3, h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20pt;
+  line-height:32pt;
+  margin-top: 16pt;
+  margin-bottom: 16pt;
+}
+
 ul,
 li {
   list-style: none;
@@ -107,11 +136,11 @@ header .navbar-nav .nav-item .nav-link {
 
 header .navbar-nav .nav-item .nav-link.active{
  color: #f7a702;
- 
+
 }
 header .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
-  
+
 }
 
 .equipment_outer {
@@ -335,17 +364,17 @@ footer p {
 
 
 
-  
+
 
 @media (max-width: 767px) {
   .transport_slider {
     background: url(../images/border_img.png) #2e2e2e;
     padding: 1px 0px 1px 0px;
     background-repeat: repeat-x;
-   
+
   }
 
-  
+
 @media (max-width: 767px) {
   .transport_slider .equipment_slide .slide_text .tick_img {
     position: absolute;
@@ -504,7 +533,7 @@ footer p {
   letter-spacing: 0.2px;
   line-height: 1.6;
   font-weight: 300;
-  
+
 }
 .new-container{
     height: auto;
@@ -518,7 +547,7 @@ footer p {
 
 
 .owner{
-  
+
   background-color: #f99e1b;
   text-align: center;
     padding: 24px;
@@ -528,12 +557,12 @@ footer p {
   font-size: 19px;
   font-weight: 900;
   line-height: 25px;
- 
-  
+
+
 }
 
 .renters {
-  
+
   background-color: #f99e1b;
   text-align: center;
     padding: 24px;
@@ -551,7 +580,7 @@ footer p {
     font-size: 20px;
     text-align: center;
     FONT-FAMILY:Helvetica;
-  
+
 }
 .findimg{
   text-align: center;
@@ -565,7 +594,7 @@ footer p {
     font-size: 19px;
     font-family: Helvetica;
     margin: 16px 0;
-   
+
 }
 .tickbackground
 {
@@ -584,7 +613,7 @@ footer p {
   text-align: center;
   width: 100%;
   margin: 10px 0;
-  
+
 }
 .asrenter {
   line-height: 27px;
@@ -592,13 +621,13 @@ footer p {
     padding: 0 14px;
     font-weight: 500;
     font-family: Helvetica;
-    
+
 }
 .ownerli {
   font-size: 20px;
   line-height: 29px;
   font-family: Helvetica;
-  
+
 }
 .goewui {
   line-height: 23px;
@@ -607,39 +636,39 @@ footer p {
     margin: 15px 0;
     font-weight: 500;
     FONT-FAMILY: Helvetica;
-    
+
 }
 .imgsize{
   width: 300px;
-  
+
 }
 
 @media screen and (max-width: 576px) {
   .imgsize{
     width: 218px;
-    
-    
+
+
   }
 }
 @media screen and (max-width: 768px) {
   .imgsize{
     width: 218px;
-    
-    
+
+
   }
 }
 @media screen and (max-width: 992px) {
   .imgsize{
     width: 218px;
-    
-    
+
+
   }
 }
 @media screen and (max-width: 1200px) {
   .imgsize{
     width: 218px;
-    
-    
+
+
   }
 }
 
@@ -657,7 +686,7 @@ footer p {
     padding: 18px 0px 0px 0px;
     color: black !important;
     /* margin: 7px 0px 0px 36px; */
-    
+
 }
 }
 
@@ -703,4 +732,3 @@ footer p {
   z-index: 11;
   padding: 27px 0;
 } */
-
